@@ -19,8 +19,12 @@ body {
 
 /* CROUSEL START  */
 
+.show-carousel {
+    display: none;
+}
+
 .carousel {
-    margin: 10.5px 7px 15px 7px;
+    margin: 10px 0px 15px 0px;
 }
 
 .carousel-inner img {
@@ -29,8 +33,61 @@ body {
     border-radius: 3px;
 }
 
+.main-heading .animate__animated {
+    opacity: 1;
+}
+
+.main-heading_2 .animate__animated {
+    opacity: 1;
+}
+
+.main-heading_3 .animate__animated {
+    opacity: 1;
+}
+
+.main-heading_2A .animate__animated {
+    opacity: 1;
+}
+
+.main-heading_3A .animate__animated {
+    opacity: 1;
+}
+
+.carousel-caption {
+    margin-bottom: 10px!important;
+    top: 30%!important;
+}
+
 
 /* CROUSEL END  */
+
+
+/* MENU PART START  */
+
+.menu-heading {
+    margin: 50px 0px 5px 0px;
+    text-align: center;
+}
+
+.menu-heading h1 {
+    color: #f88c91;
+    font-family: 'Pacifico', cursive;
+    font-size: 25px;
+}
+
+.menu-heading h2 {
+    font-size: 14px;
+    margin: 12px auto;
+    font-weight: 700;
+    font-family: 'system-ui';
+}
+
+.menu-heading img {
+    margin: 15px;
+}
+
+
+/* MENU PASR END  */
 
 
 /*  ********************* FOOTER START****************** */
@@ -61,7 +118,8 @@ footer p {
 .tophead {
     width: 100%;
     height: 60px;
-    background: rgb(137, 48, 172);
+    background: rgb(22 22 23 / 93%);
+    opacity: 1;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -105,13 +163,13 @@ footer p {
 .sidenav a {
     text-decoration: none;
     font-size: 20px;
-    color: rgb(137, 48, 172);
+    color: rgb(22 22 23 / 93%);
     display: block;
     padding: 15px 0 15px 20px;
 }
 
 .sidenav a:hover {
-    color: rgb(137, 48, 172);
+    color: rgb(22 22 23 / 93%);
     text-decoration: none;
 }
 
@@ -187,7 +245,7 @@ header h1 {
 .product-name a:hover {
     text-decoration: none;
     cursor: pointer;
-    color: rgb(137, 48, 172) !important;
+    color: rgb(22 22 23 / 93%) !important;
 }
 
 .product-brand {
@@ -201,7 +259,7 @@ header h1 {
 }
 
 .card-footer {
-    background: rgb(137, 48, 172) !important;
+    background: rgb(22 22 23 / 93%) !important;
     padding: 10px 0px !important;
     text-align: center;
 }
@@ -292,7 +350,7 @@ header h1 {
     border-radius: 0.5rem;
     cursor: pointer;
     width: 100%;
-    background: rgb(137, 48, 172);
+    background: rgb(22 22 23 / 93%);
     color: white;
     margin-top: 8px;
 }
@@ -392,8 +450,8 @@ header h1 {
 }
 
 .checkout-steps>div.active {
-    color: rgb(137, 48, 172);
-    border-top-color: rgb(137, 48, 172);
+    color: rgb(22 22 23 / 93%);
+    border-top-color: rgb(22 22 23 / 93%);
 }
 
 
@@ -412,19 +470,19 @@ header h1 {
 }
 
 .new-user a {
-    color: rgb(137, 48, 172);
+    color: rgb(22 22 23 / 93%);
     font-weight: 700;
 }
 
 .new-user a:hover {
     text-shadow: 0px 4px 7px rgb(110, 110, 110);
-    color: rgb(137, 48, 172);
+    color: rgb(22 22 23 / 93%);
     text-decoration: none;
 }
 
 .forget-pass {
     font-size: 13px;
-    color: rgb(137, 48, 172);
+    color: rgb(22 22 23 / 93%);
     font-weight: 500;
     margin: 5px 0px;
     text-align: left;
@@ -479,7 +537,7 @@ header h1 {
 .form-items li button {
     padding: 8px;
     border-radius: 5px;
-    background: rgb(137, 48, 172);
+    background: rgb(22 22 23 / 93%);
     color: white;
     font-size: 15px;
     font-weight: bold;
@@ -573,7 +631,7 @@ header h1 {
 }
 
 .order-action-table th {
-    color: rgb(137, 48, 172);
+    color: rgb(22 22 23 / 93%);
     font-size: 19px;
     /* font-family: inherit; */
 }
@@ -592,7 +650,7 @@ header h1 {
 .place-order-btn button {
     padding: 8px;
     border-radius: 5px;
-    background: rgb(137, 48, 172);
+    background: rgb(22 22 23 / 93%);
     color: white;
     font-size: 19px;
     font-weight: bold;
@@ -691,7 +749,7 @@ header h1 {
 }
 
 .profile-action-table tbody>tr a {
-    color: rgb(137, 48, 172);
+    color: rgb(22 22 23 / 93%);
 }
 
 .profile-action-table {
@@ -713,7 +771,7 @@ header h1 {
 }
 
 .order-action-table th {
-    color: rgb(137, 48, 172);
+    color: rgb(22 22 23 / 93%);
     font-size: 19px;
 }
 
@@ -753,12 +811,12 @@ header h1 {
 .dashboard-menu a:hover {
     background-color: #c0c0c0;
     text-decoration: none;
-    color: rgb(137, 48, 172);
+    color: rgb(22 22 23 / 93%);
 }
 
 .dashboard-menu li.selected a {
     background-color: #c0c0c0;
-    color: rgb(137, 48, 172);
+    color: rgb(22 22 23 / 93%);
 }
 
 
@@ -849,7 +907,7 @@ header h1 {
     font-size: 16px;
     font-weight: 600;
     color: white;
-    background: rgb(137, 48, 172);
+    background: rgb(22 22 23 / 93%);
     border-radius: 5px;
     padding: 0.7rem;
     border: 0.1rem #808080 solid;
@@ -895,12 +953,12 @@ header h1 {
 .admin-order-menu a:hover {
     background-color: #c0c0c0;
     text-decoration: none;
-    color: rgb(137, 48, 172);
+    color: rgb(22 22 23 / 93%);
 }
 
 .admin-order-menu li.selected a {
     background-color: #c0c0c0;
-    color: rgb(137, 48, 172);
+    color: rgb(22 22 23 / 93%);
 }
 
 .admin-roder-items {
@@ -1050,8 +1108,8 @@ header h1 {
 }
 
 .form-button button {
-    border: 1px solid rgb(137, 48, 172);
-    background: rgb(137, 48, 172);
+    border: 1px solid rgb(22 22 23 / 93%);
+    background: rgb(22 22 23 / 93%);
     color: white;
     border-radius: 10px;
     margin: 15px 5px;
@@ -1081,7 +1139,7 @@ header h1 {
     display: flex;
     flex-wrap: wrap;
     margin: auto;
-    /* background-color: rgb(137, 48, 172); */
+    /* background-color: rgb(22 22 23 / 93%); */
 }
 
 .footer-bg i {
@@ -1093,7 +1151,7 @@ header h1 {
 }
 
 .footer-bg {
-    color: rgb(137, 48, 172);
+    color: rgb(22 22 23 / 93%);
     font-size: 16px;
     font-weight: 700;
 }

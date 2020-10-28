@@ -1,6 +1,6 @@
 import HomeScreen from './screens/HomeScreen.js'
 import ProductScreen from './screens/ProdutScreen.js';
-import { hideLoading, parseRequestUrl, showLoading } from './utils.js';
+import { hideLoading, hide_carousel, parseRequestUrl, showLoading, show_carousel } from './utils.js';
 import CartScreen from './screens/CartScreen.js';
 import Error404Screen from './screens/Error404Screen.js';
 import ShippingScreen from './screens/ShippingScreen.js';
@@ -82,8 +82,12 @@ const router = () => {
     console.log("parseUrl ", parseUrl);
     const screen = routes[parseUrl] ? routes[parseUrl] : Error404Screen;
 
-    if (screen === HomeScreen)
+    if (screen === HomeScreen) {
+        hide_carousel();
         showLoading();
+    } else {
+        show_carousel();
+    }
     const header = document.getElementById("mySidenav");
     header.innerHTML = Header.render()
 
@@ -116,7 +120,6 @@ const router = () => {
                     if (screen.after_render) screen.after_render();
                 });
         } else if (screen === OrderScreen) {
-            console.log("GGGGG");
             firebase
                 .database()
                 .ref("Orders/" + request.id)

@@ -83,21 +83,3 @@ const AdminOrderScreen = {
     }
 }
 export default AdminOrderScreen;
-
-
-// <div>
-//                     <div class="order-div-1 ">
-//                         <img src="./images/sw5.jpg" alt="">
-//                         <ul>
-//                             <li>
-//                                 Name: Kaju Katli
-//                             </li>
-//                             <li>
-//                                 Price: Rs 74
-//                             </li>
-//                             <li>
-//                                 Address: Laxmi Nagar Chandmari, Khamgaon
-//                             </li>
-//                         </ul>
-//                     </div>
-//                 </div>

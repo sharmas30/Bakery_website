@@ -33,6 +33,16 @@ export const hideLoading = () => {
     document.getElementById('loading-overlay').classList.remove('scet');
 };
 
+export const show_carousel = () => {
+    document.getElementById('show-carousel').classList.add('show-carousel');
+};
+
+export const hide_carousel = () => {
+    document.getElementById('show-carousel').classList.remove('show-carousel');
+};
+
+
+
 export const CheckoutSteps = (props) => {
     return `
 		<div class="checkout-steps">
