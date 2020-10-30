@@ -9,7 +9,7 @@ const HomeScreen = {
         ${keys.map(
             (product) => `
             
-            <div class="col-lg-3 col-12 main-card" >
+            <div class="col-lg-4 col-12 main-card" >
                 <div class="card text-center">
                     <div class="card-body product" >
                         <a href="/#/product/${product._id}">
