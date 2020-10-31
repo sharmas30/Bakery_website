@@ -1,6 +1,6 @@
 import HomeScreen from './screens/HomeScreen.js'
 import ProductScreen from './screens/ProdutScreen.js';
-import { hideLoading, hide_carousel, parseRequestUrl, showLoading, show_carousel } from './utils.js';
+import { hideLoading, hide_carousel, hide_HomeScreenItem, parseRequestUrl, showLoading, show_carousel, show_HomeScreenItem } from './utils.js';
 import CartScreen from './screens/CartScreen.js';
 import Error404Screen from './screens/Error404Screen.js';
 import ShippingScreen from './screens/ShippingScreen.js';
@@ -84,9 +84,11 @@ const router = () => {
 
     if (screen === HomeScreen) {
         hide_carousel();
+        hide_HomeScreenItem()
         showLoading();
     } else {
         show_carousel();
+        show_HomeScreenItem()
     }
     const header = document.getElementById("mySidenav");
     header.innerHTML = Header.render()

@@ -127,7 +127,7 @@ const ProductEditScreen = {
                     </li>
                     
                     <li>
-                        <button id="upload" type="submit" class="primary">Submit </button>
+                        <button id="upload" type="submit" class="primary">Update </button>
                     </li>
                 </ul>
             </form>

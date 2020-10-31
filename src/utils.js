@@ -41,6 +41,14 @@ export const hide_carousel = () => {
     document.getElementById('show-carousel').classList.remove('show-carousel');
 };
 
+export const show_HomeScreenItem = () => {
+    document.getElementById('homeScreenItem').classList.add('show-carousel');
+};
+
+export const hide_HomeScreenItem = () => {
+    document.getElementById('homeScreenItem').classList.remove('show-carousel');
+};
+
 
 
 export const CheckoutSteps = (props) => {
